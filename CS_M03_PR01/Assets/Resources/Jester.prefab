@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7728249167135106652}
   - component: {fileID: 6774095152447090123}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Jester
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 166482551
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1000810772, guid: 15a37a3dc9a4fc24eb76638873fbd718, type: 3}
+  m_Sprite: {fileID: -743731412, guid: 15a37a3dc9a4fc24eb76638873fbd718, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -203,15 +203,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f5e7ee9020c494c9bf43f79f05ae2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyName: Enemy
-  moveSpeed: 3
-  curHp: 30
-  maxHp: 30
-  chaseRange: 5
-  attackRange: 1
-  playerDetectRate: 0.2
+  enemyName: Jester
+  moveSpeed: 2.5
+  curHp: 40
+  maxHp: 40
+  chaseRange: 6
+  attackRange: 1.3
+  playerDetectRate: 0.1
   objectToSpawnOnDeath: GoldPickup
-  damage: 5
+  damage: 1
   attackRate: 0.5
   healthBar: {fileID: 2161277226829718930}
   sr: {fileID: 8459824925990016013}
